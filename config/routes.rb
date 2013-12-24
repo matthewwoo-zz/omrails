@@ -3,7 +3,7 @@ Omrails::Application.routes.draw do
   resources :pins
 
   devise_for :users
-root "pins#index"
+root "pins#home"
 get "about" => "pages#about"
 
 	
